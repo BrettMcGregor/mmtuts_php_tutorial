@@ -21,5 +21,5 @@
         // Run parameters inside database
         mysqli_stmt_execute($stmt);
     }
-    // header("Location: index.php?signup=success")
+    header("Location: index.php?signup=success")
 ?>
