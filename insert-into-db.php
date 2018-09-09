@@ -13,6 +13,7 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <!-- form action is the code that will be run when submit button is clicked -->
 <form action="signup.php" method="POST">
     <input type="text" name="first" placeholder="Firstname">
     <br>
@@ -20,9 +21,9 @@
     <br>
     <input type="text" name="email" placeholder="Email">
     <br>
-    <input type="text" name="username" placeholder="Username">
+    <input type="text" name="uid" placeholder="Username">
     <br>
-    <input type="password" name="password" placeholder="Password">
+    <input type="password" name="pwd" placeholder="Password">
     <br>
     <button type="submit" name="submit">Submit</button>
 </form>
