@@ -63,9 +63,11 @@ if (isset($_POST['submit'])) {
                     } 
                     else {
                         // Insert new user into database
+                        // Hash the password
+                        $hashedPwd = password_hash($pws, PASSWORD_DEFAULT);
                         // Bind parameters to the placeholder(s)
                         // "sssss" placeholders in the function here, correspond to the placeholders in the sql query
-                        mysqli_stmt_bind_param($stmt, "sssss", $first, $last, $email, $uid, $pwd);
+                        mysqli_stmt_bind_param($stmt, "sssss", $first, $last, $email, $uid, $hashedPwd);
                         // Run parameters inside database
                         mysqli_stmt_execute($stmt);
                         header("Location: insert-into-db.php?signup=success");

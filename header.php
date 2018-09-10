@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"> 
     <title>Document</title>
 </head>
 <body>
@@ -22,6 +23,9 @@
             <li><a href="superglobals-sessions.php">Lesson 25- : Superglobals Sessions Cookies</a></li>
             <li><a href="select-from-db.php">Lesson 36-37 Connect to Database</a></li>
             <li><a href="insert-into-db.php">Lesson 38- Insert into Database/ Sign-up</a></li>
+            <li><a href="hashing.php">Lesson 43: Hashing/De-hashing data</a></li>
+            <li><a href="arrays.php">Lesson 45-50: Arrays</a></li>
+            <li><a href="upload-files.php">Lesson 51: Upload Files</a></li>
         </ul>
     </nav>
 </header>
