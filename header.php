@@ -22,7 +22,7 @@
             <li><a href="user-defined-functions.php">Lesson 22: User Defined Functions</a></li>
             <li><a href="superglobals-sessions.php">Lesson 25- : Superglobals Sessions Cookies</a></li>
             <li><a href="select-from-db.php">Lesson 36-37 Connect to Database</a></li>
-            <li><a href="insert-into-db.php">Lesson 38- Insert into Database/ Sign-up</a></li>
+            <li><a href="user-signup.php">Lesson 38- Insert into Database/ Sign-up</a></li>
             <li><a href="hashing.php">Lesson 43: Hashing/De-hashing data</a></li>
             <li><a href="arrays.php">Lesson 45-50: Arrays</a></li>
             <li><a href="upload-files.php">Lesson 51: Upload Files</a></li>

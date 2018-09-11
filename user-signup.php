@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Insert into DB</title>
+    <title>User Signup</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
